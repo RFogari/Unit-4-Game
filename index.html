@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    
+    <title>Number Match Game</title>
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Syncopate" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt|Syncopate" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 </head>
 <body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class ="header">Match the Lucky Number</h1>
+            <h3>
+                Can you match the lucky number using the four dice faces below?
+            </h3>
+            <h3>
+                Each dice face represents a mystery number.  Chose the right combination and you might win!
+            </h3>
+        </div>
+    </div>
     
+  <div class="container">
+      <div class="gameinfo">
+        <div class="luckynumber">Lucky Number: <span class="randomNumber"></span></div>
+        <br>
+        <div class="playerguess"> Your Guess: <span class="userTotal"></span></div>
+        <br>    
+        
+    </div>
+
+
+  <br>
+   
+    
+    <div class="container">
+        <div class="row">
+            <div class="column">
+                    <div class="object1"> <img id="dice" src="assets/images/diceimage1.png" alt="Dice 1"> </div>  
+            </div>
+            <div class="column">
+                    <div class="object2"> <img id="dice" src="assets/images/diceimage2.png" alt="Dice 2"></div>
+            </div>
+            <div class="column">
+                    <div class="object3"> <img id="dice" src="assets/images/diceimage3.png" alt="Dice 3"> </div>
+            </div>
+            <div class="column">
+                    <div class="object4"> <img id="dice" src="assets/images/diceimage4.png" alt="Dice 4"> </div>
+            </div>
+        </div>         
+
+
+
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="gameinfo">
+            <div class ="results">
+                    <div class="button">Wins: <span class="wins"></span></div>
+                    <div class="button">Losses: <span class="loss"></span></div>
+
+            </div>
+                
+
+
+        </div>
+        
+    </div>
+    
+    
+    
+   
+    
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>

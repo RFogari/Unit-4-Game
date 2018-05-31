@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/pexels-photo-342411.jpeg);
+}
+
+.jumbotron {
+    border-style:dotted;
+    border-color:green;
+    background-color:black;
+    border-width: 8px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+h1{
+    font-family: 'Syncopate', sans-serif;
+    font-size: 50px;
+    font-weight:bold;
+    color: green;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top:25px;
+    color:greenyellow;
+}
+
+.random{
+    border: 25px;
+    border-color: green;
+    font-size: 30px;
+    background-color: white;
+}
+
+.gameinfo {
+    border-color:green;
+    border-width: 8px;
+    border-style:dotted;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.luckynumber {
+    font-family: 'Syncopate', sans-serif;
+    color:greenyellow;
+    font-weight:bold;
+    text-align:center;
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+.playerguess {
+    color:white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.results {
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.random{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    font-family: 'Syncopate', sans-serif;
+    border-width: 5px;
+    text-align:center;
+    padding: 10px;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+    margin-top: 25px;
+}
+#dice {
+    height:150px;
+    width: 150px;
+    margin-bottom:100px;
+}
